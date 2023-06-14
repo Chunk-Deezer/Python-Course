@@ -19,3 +19,10 @@ def myfunc():
 myfunc()
 
 print(link) #This will print the global variable 'link'
+
+#PYTHON DATA TYPES
+
+#The print function can get data types
+h=8.0
+print(type(h)) #This data type is float
+j=int(10) #This line just specifies the data type
