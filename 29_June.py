@@ -23,5 +23,5 @@ cost=9.99
 order="i want {} of the number {} which costs {}"
 print(order.format(quant, item, cost))
 #a backslash can let illegal characters exist in a string
-txt="my father\'s name is \"Norden\""
+txt="my dog\'s name is \"Norden\""
 print(txt) #this will print the variable 'txt' with the illegal characters included
