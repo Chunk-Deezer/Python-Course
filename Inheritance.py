@@ -24,6 +24,12 @@ class student(Person):
 #to name the parent specifically. it is used in the same place as Person is
 
 class student2(Person):
-    def __init__(self, fname, lname, year):
+    def __init__(self, fname, lname, year): #year parameter must be added for property below
         super().__init__(fname, lname)
-        self.year = year
+        self.year = year #added property called year
+    def welcome(self): #method called welcome
+        print("welcome", self.firstname, self.lastname, "to the class of", self.year)
+z = student2("Johnny", "Sins", 1994) #the year 1994 is a variable passed into the student class while creating the object
+
+#if you create a method in the child class that shares its name with a function in the parent class, the inheritance of the parent
+#class will be overriden
